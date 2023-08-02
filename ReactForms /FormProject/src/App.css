@@ -1,0 +1,122 @@
+ 
+.navbar{
+    width: 100%;
+    display: flex;
+    height: 80px;
+    background-color: brown;
+    align-items: center;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    z-index: 0;
+    
+} 
+.navbar h3{
+    color: white;
+    margin-left: 10px;
+}
+
+.navbar a{
+    text-decoration: none;
+    padding: 3px;
+    font-size: 20px;
+    color: white;
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+
+} 
+.navbar a.active{
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+.navDiv{
+    display: flex;
+    align-items: center;
+}
+.navDiv h3{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navDiv img{
+    width: 60px;
+    height: 60px;
+}
+
+.footer{
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    bottom: 0px;
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.konum{
+    display: flex;
+
+}
+.konum svg{
+    color: white;
+    margin-left: 10px;
+    
+}
+.konum p{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 5px;
+}
+.phone{
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    margin-left: 7px;
+}
+
+
+
+.footerMain p,
+.footerMain h3{
+    color: white;
+    margin: 0px 10px;
+}
+.card:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+  }
+.ımagesDiv{
+    width: 100%;
+    
+    margin: 105px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: center;
+    
+}
+.ımagesDiv img{
+    width: 100%;
+    object-fit: cover;
+    height: fit-content;
+    height: 300px;
+    
+   
+}
+.tasarim{
+margin: 100px 0px;
+padding: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.tasarim h3{
+    margin-bottom: 40px;
+}
+.sigorta{
+    margin: 100px 0px;
+}
+.mantine{
+    margin: 100px 0px;
+}
